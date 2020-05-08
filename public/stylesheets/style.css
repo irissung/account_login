@@ -1,0 +1,27 @@
+
+form {
+  margin: 20px;
+}
+.card, .alert, h1 {
+  width: 30%;
+  height: 50%;
+  margin: auto;
+}
+
+.card, h1 {
+  margin-top: 10%;
+}
+
+.login-page p {
+  font-family: fantasy;
+  font-size: 2em;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+}
+
+.btn {
+  margin: auto;
+  width: 100px;
+  margin-bottom: 20px;
+}
