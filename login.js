@@ -25,9 +25,16 @@ function accountLogin(options) {
       firstName: 'Nick',
       email: 'nick@shield.com',
       password: 'password'
+    },
+    {
+      firstName: 'Test',
+      email: 'test@test.com',
+      password: '1234'
     }
   ]
-
+  if (options.email === '') {
+    return 'Mail 或 密碼 不可以空白喔! 請重新輸入'
+  }
   //先利用使用者輸入的email來尋找users內有沒有相同的資料並存入account
   let account = users.find(user => user.email === options.email)
 

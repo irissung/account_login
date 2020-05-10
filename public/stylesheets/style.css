@@ -1,5 +1,5 @@
 
-form {
+.form-login {
   margin: 20px;
 }
 .card, .alert, h1 {
@@ -24,4 +24,12 @@ form {
   margin: auto;
   width: 100px;
   margin-bottom: 20px;
+}
+
+.sign {
+  font-family: monospace;
+  font-size: 14px;
+  width: 80px;
+  border-radius: 5px;
+  margin: 0px 10px;
 }
